@@ -1,0 +1,15 @@
+@import '@/styles/variable'
+@import '@/styles/mixins'
+
+body
+  min-height: 100vh
+  background: url('/assets/bg.jpg') center center / cover no-repeat
+  overflow: hidden
+
+h1
+  filter: grayscale(0.7)
+  appearance: none
+  color: $grey
+
+img
+  @include flip(2s)

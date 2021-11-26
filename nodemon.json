@@ -1,0 +1,10 @@
+{
+  "exec": "yarn start",
+  "ignore": [
+    "dist/*",
+    "node_modules/*",
+    "src/*",
+    "backend/*"
+  ],
+  "delay": 1000
+}
